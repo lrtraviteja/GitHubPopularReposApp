@@ -4,7 +4,7 @@ const LanguageFilterItem = props => {
   const {details, isActive, changeActiveLanguage} = props
   const {id, language} = details
   const getId = () => {
-    changeActiveLanguage(language)
+    changeActiveLanguage(id)
   }
   return (
     <li>
