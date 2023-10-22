@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.languages-list,
+.repository-items-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  max-width: 70%;
+}
+
+.loader-container,
+.repository-items-list,
+.failure-view-container {
+  min-height: 80vh;
+}
+
+.failure-img {
+  width: 80%;
+}
+
+.title {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 45px;
+  margin-bottom: 48px;
+}
